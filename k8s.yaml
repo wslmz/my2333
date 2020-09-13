@@ -4,6 +4,9 @@ metadata:
   name: elecv2
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      name: elecv2
   template:
     metadata:
       labels:
