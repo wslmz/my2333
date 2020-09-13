@@ -9,7 +9,7 @@
 			"network": "ws",
 			"security": "auto",
 			"wsSettings": {
-				"path": "/elecV2"
+				"path": "/onetwo"
 			}
 		}
 	},{
