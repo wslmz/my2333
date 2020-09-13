@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: elecv2
+        name: elecv2
     spec:
       restartPolicy: Always
       containers:
@@ -32,4 +32,4 @@ spec:
   - name: "v2kurl"
     port: 8251
   selector:
-    app: elecv2
+    name: elecv2
